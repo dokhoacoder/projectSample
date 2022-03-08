@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "551adcf7-b0d6-4d2e-8cc1-d7aed3dd71d2",
+		"name": "Student API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get List Student",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/api/student/list/page=1"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Student By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/api/student/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"Name\":\"Nguyen Van D\",\r\n \"Gender\":1,\r\n \"Cmnd\":\"123456098712\",\r\n \"Phone\":\"1234567890\",\r\n \"Class\":\"Việt Nam Học\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/api/student/add"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Student",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:5000/api/student/update/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Student",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:5000/api/student/delete/2"
+			},
+			"response": []
+		}
+	]
+}

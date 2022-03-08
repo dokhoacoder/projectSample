@@ -1,0 +1,9 @@
+"filename", "language", "TypeScript", "CSS", "HTML", "comment", "blank", "total"
+"c:\Users\Do Khoa\Documents\SampleProject\StudentManager\src\app\app-routing.module.ts", "TypeScript", 8, 0, 0, 0, 3, 11
+"c:\Users\Do Khoa\Documents\SampleProject\StudentManager\src\app\app.component.css", "CSS", 0, 0, 0, 0, 1, 1
+"c:\Users\Do Khoa\Documents\SampleProject\StudentManager\src\app\app.component.html", "HTML", 0, 0, 286, 29, 1, 316
+"c:\Users\Do Khoa\Documents\SampleProject\StudentManager\src\app\app.component.spec.ts", "TypeScript", 31, 0, 0, 0, 5, 36
+"c:\Users\Do Khoa\Documents\SampleProject\StudentManager\src\app\app.component.ts", "TypeScript", 117, 0, 0, 1, 10, 128
+"c:\Users\Do Khoa\Documents\SampleProject\StudentManager\src\app\app.module.ts", "TypeScript", 20, 0, 0, 0, 3, 23
+"c:\Users\Do Khoa\Documents\SampleProject\StudentManager\src\app\services\student.service.ts", "TypeScript", 50, 0, 0, 0, 10, 60
+"Total", "-", 226, 0, 286, 30, 33, 575
